@@ -1,5 +1,5 @@
 # CTF challenge name : Hammered
-at the first we have to know something about Web Server for investigation 
+at the first we have to know something about what is the inside this logs 
 <br> 1- /var/log/auth.log – Contains system authorization information, including user logins and authentication machinsm that were used, successful and failed attemps.
 <br> 2- /var/log/apache/access.log is a log file that stores information about incoming requests
 <br> 3- '/var/log/dmesg' file provides a snapshot of the kernel messages at boot time 
