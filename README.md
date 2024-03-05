@@ -1,7 +1,7 @@
 # CTF challenge name : Hammered
 at the first we have to know something about Web Server for investigation 
 <br> 1- /var/log/auth.log – Contains system authorization information, including user logins and authentication machinsm that were used, successful and failed attemps.
-<br> 2- /var/log/apache/access.log is a log file that records all events related to client applications and user access to a resource on a computer.
+<br> 2- /var/log/apache/access.log is a log file that stores information about incoming requests
 <br> 3- '/var/log/dmesg' file provides a snapshot of the kernel messages at boot time 
 <br> 4- /var/log/daemon  Daemon logs contains information about events related running the Linux operation.
 <br> 5- /var/log/apt folder has the history.log log file that keeps all the package installation and removal information
@@ -53,9 +53,10 @@ at the first we have to know something about Web Server for investigation
 
 # Q6 How many requests were sent to the Apache Server?
 <br> to know how many requsests were sent to the apache server
-<br> we will find it inside access.log because it is  **a log file that records all events related to client applications and user access to a resource on a computer.**
+<br> we will find it inside access.log because it is  **stores information about incoming requests**
 <br> **wc -l** will count number of lines then we get number of requestes 
-<br> command line **wc -l www-access.log** 
+<br> command line **wc -l www-access.log**
+<br<
 ![9](https://github.com/0xT7N/CTF/assets/75274517/f4ef7ebf-62a7-41ac-aceb-26c693be69e4)
 # Q7 How many rules have been added to the firewall?
 <br> command line **cat auth.log | grep 'iptable'**
