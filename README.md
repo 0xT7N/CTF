@@ -75,8 +75,8 @@ at the first we have to know something about Web Server for investigation
 ![13](https://github.com/0xT7N/CTF/assets/75274517/2e6f48d3-74a6-4427-8382-89fa6f7cc454)
 # Q10 The database displayed two warning messages, provide the most important and dangerous one.
 <br> data about database will stored in **daemon.log** **(Daemon logs contains information about events related running the Linux operation.)**
-<br> with command line **cat daemon.log | grep 'mysql' | grep 'WARNING'**
-![14](https://github.com/0xT7N/CTF/assets/75274517/07d102df-2384-4bf2-9fe0-cd8489724947)
+<br> with command line **cat daemon.log  grep 'WARNING'**
+![20](https://github.com/0xT7N/CTF/assets/75274517/1e2400a1-eed8-41ef-b807-83240e725b35)
 # Q11 Multiple accounts were created on the target system. Which one was created on Apr 26 04:43:15?
 <br> **cat auth.log | grep 'Apr 26 04:43:15'**
 ![15](https://github.com/0xT7N/CTF/assets/75274517/536fd009-f24f-4f6b-b794-5d45b4cb2df6)
