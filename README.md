@@ -1,12 +1,14 @@
 # CTF challenge name : Hammered
+at the first we have to know something about Web Server for investigation 
+<br> 1- /var/log/auth.log – Contains system authorization information, including user logins and authentication machinsm that were used, successful and failed attemps.
+<br> 2- /var/log/apache/access.log is a log file that records all events related to client applications and user access to a resource on a computer.
+<br> 3- '/var/log/dmesg' file provides a snapshot of the kernel messages at boot time 
+<br> 4- /var/log/daemon  Daemon logs contains information about events related running the Linux operation.
+<br> 5- /var/log/apt folder has the history.log log file that keeps all the package installation and removal information
+<br< 6- debug: debug logs stores detailed message related to debugging and is useful for troubleshooting specific system operations
+<br>
 ![18](https://github.com/0xT7N/CTF/assets/75274517/f4db070a-9fa8-4b05-9051-5d9644e7e3b3)
 
-at the first we have to know something about Web Server for investigation 
-<br> a) /var/log/auth.log – Contains system authorization information, including user logins and authentication machinsm that were used.
-<br> b) /var/log/apache/access.log is a log file that records all events related to client applications and user access to a resource on a computer.
-<br> c) '/var/log/dmesg' file provides a snapshot of the kernel messages at boot time 
-<br> d) /var/log/daemon.log show the stack trace or the path to a file containing the stack trace if it was logged to a file.
-<br> e) /var/log/apt folder has the history.log log file that keeps all the package installation and removal information
 # Q1 Which service did the attackers use to gain access to the system?
 <br> the only log file will help us to know which service attacker used for gain access (auth.log) 
 <br> because it Contains system authorization information, including user logins and authentication machinsm that were used.
