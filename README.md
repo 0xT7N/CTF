@@ -78,11 +78,11 @@ at the first we have to know something about Web Server for investigation
 <br> with command line **cat daemon.log  grep 'WARNING'**
 ![20](https://github.com/0xT7N/CTF/assets/75274517/1e2400a1-eed8-41ef-b807-83240e725b35)
 # Q11 Multiple accounts were created on the target system. Which one was created on Apr 26 04:43:15?
-<br> **cat auth.log | grep 'Apr 26 04:43:15'**
-![15](https://github.com/0xT7N/CTF/assets/75274517/536fd009-f24f-4f6b-b794-5d45b4cb2df6)
+<br> we will search in auth.log about new user with this command  **cat auth.log | grep 'new user' | grep 'Apr 26 04:43:1'**
+![22](https://github.com/0xT7N/CTF/assets/75274517/fe1cb1fa-7603-4aa7-8e03-870c0a3135f5)
+
 # Q12 Few attackers were using a proxy to run their scans. What is the corresponding user-agent used by this proxy?
 <br>The HTTP CONNECT method starts two-way communications with the requested resource. It can be used to open a tunnel.
-![17](https://github.com/0xT7N/CTF/assets/75274517/8f42c17e-e0f5-4607-befe-381859ae65c2)
 
 <br> command line **cat www-access.log | grep 'CONNECT'** 
 <br>   ans  **pxyscand/2.1**
