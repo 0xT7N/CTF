@@ -3,6 +3,7 @@ at the first we have to know something about what is the inside this logs
 <br> 1- /var/log/auth.log – Contains system authorization information, including user logins and authentication machinsm that were used, successful and failed attemps.
 <br> 2- /var/log/apache/access.log is a log file that stores information about incoming requests
 <br> 3- '/var/log/dmesg' file provides a snapshot of the kernel messages at boot time 
+<br> 4- var/log/kern.log: stores information from the Ubuntu Linux kernel
 <br> 4- /var/log/daemon  Daemon logs contains information about events related running the Linux operation.
 <br> 5- /var/log/apt/term.log: store records of actions such as package installations and updates. , history of apt command
 <br> 
