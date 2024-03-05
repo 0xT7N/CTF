@@ -59,6 +59,7 @@ at the first we have to know something about Web Server for investigation
 <br>
 ![9](https://github.com/0xT7N/CTF/assets/75274517/f4ef7ebf-62a7-41ac-aceb-26c693be69e4)
 # Q7 How many rules have been added to the firewall?
+<br> Iptables is a standard firewall included in most Linux distributions by default.
 <br> command line **cat auth.log | grep 'iptable'**
 ![10](https://github.com/0xT7N/CTF/assets/75274517/a9911f4a-ae42-44e2-96c7-5f170e200953)
  # Q8 One of the downloaded files to the target system is a scanning tool. Provide the tool name.
