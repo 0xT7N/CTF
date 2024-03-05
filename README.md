@@ -4,7 +4,7 @@ at the first we have to know something about Web Server for investigation
 <br> 2- /var/log/apache/access.log is a log file that stores information about incoming requests
 <br> 3- '/var/log/dmesg' file provides a snapshot of the kernel messages at boot time 
 <br> 4- /var/log/daemon  Daemon logs contains information about events related running the Linux operation.
-<br> 5- /var/log/apt folder has the history.log log file that keeps all the package installation and removal information
+<br> 5- /var/log/apt/term.log: history of apt command
 <br< 6- debug: debug logs stores detailed message related to debugging and is useful for troubleshooting specific system operations
 <br>
 ![18](https://github.com/0xT7N/CTF/assets/75274517/f4db070a-9fa8-4b05-9051-5d9644e7e3b3)
