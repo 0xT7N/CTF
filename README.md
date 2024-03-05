@@ -1,4 +1,6 @@
 # CTF challenge name : Hammered
+![18](https://github.com/0xT7N/CTF/assets/75274517/f4db070a-9fa8-4b05-9051-5d9644e7e3b3)
+
 at the first we have to know something about Web Server for investigation 
 <br> a) /var/log/auth.log – Contains system authorization information, including user logins and authentication machinsm that were used.
 <br> b) /var/log/apache/access.log is a log file that records all events related to client applications and user access to a resource on a computer.
