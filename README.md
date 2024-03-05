@@ -83,6 +83,7 @@ at the first we have to know something about Web Server for investigation
 
 # Q12 Few attackers were using a proxy to run their scans. What is the corresponding user-agent used by this proxy?
 <br>The HTTP CONNECT method starts two-way communications with the requested resource. It can be used to open a tunnel.
+![17](https://github.com/0xT7N/CTF/assets/75274517/720ac577-e857-4f6b-a584-b1053036e848)
 
 <br> command line **cat www-access.log | grep 'CONNECT'** 
 <br>   ans  **pxyscand/2.1**
