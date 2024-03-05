@@ -4,7 +4,7 @@ at the first we have to know something about Web Server for investigation
 <br> 2- /var/log/apache/access.log is a log file that stores information about incoming requests
 <br> 3- '/var/log/dmesg' file provides a snapshot of the kernel messages at boot time 
 <br> 4- /var/log/daemon  Daemon logs contains information about events related running the Linux operation.
-<br> 5- /var/log/apt/term.log: history of apt command
+<br> 5- /var/log/apt/term.log: store records of actions such as package installations and updates. , history of apt command
 <br< 6- debug: debug logs stores detailed message related to debugging and is useful for troubleshooting specific system operations
 <br>
 ![18](https://github.com/0xT7N/CTF/assets/75274517/f4db070a-9fa8-4b05-9051-5d9644e7e3b3)
@@ -63,8 +63,7 @@ at the first we have to know something about Web Server for investigation
 <br> command line **cat auth.log | grep 'iptable'**
 ![10](https://github.com/0xT7N/CTF/assets/75274517/a9911f4a-ae42-44e2-96c7-5f170e200953)
  # Q8 One of the downloaded files to the target system is a scanning tool. Provide the tool name.
- <br> log file will help us in this **Q** to know which tool downloaded is term.log
- <br> /var/log/apt **folder has the history.log log file that keeps all the package installation and removal information**
+ <br> will help us in this **Q** to know which tool downloaded is **term.log** **( store records of actions such as package installations and updates.)**
 <br> we will use this command **cat term.log | grep -A 5 -B 5 'install'**
 <br> **nmap** is most popular scanning tools
 ![11](https://github.com/0xT7N/CTF/assets/75274517/dd6b0a54-a989-4412-af0c-d09a8a9b4649)
